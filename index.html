@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>To find language codes go to <a target="_blank" href="https://www.loc.gov/standards/iso639-2/php/code_list.php">here</a> and  look in the ISO 639-1 Code column, also sometimes it might be a little slow so just wait</p>
+    <input autocomplete="off" class="wd" id="Words" placeholder="Words">
+    <br><br>
+    <input class="code" id="from" placeholder="Language To Be translated from code">
+    <br><br>
+    <input class="code" id="to" placeholder="Target Language code">
+    <br><br>
+    <button id="btn">Translate</button>
+    <br><br>
+    <div class="res" id="info"></div>
+    <label for="drk">Dark Mode: </label>
+    <input id="drk" type="checkbox">
+</body>
+<script src="script.js"></script>
+</html>
